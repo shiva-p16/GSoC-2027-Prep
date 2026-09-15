@@ -1,0 +1,4 @@
+INFO "User logged in successfully" 15-09-2026 10:14:02
+WARNING "High memory usage detected" 15-09-2026 10:15:30
+ERROR "Database connection timeout" 15-09-2026 10:16:45
+INFO "Background worker started" 15-09-2026 10:17:00

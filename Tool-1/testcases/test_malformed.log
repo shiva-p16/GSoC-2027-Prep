@@ -1,0 +1,5 @@
+INFO "Everything is fine" 15-09-2026 12:00:00
+ERROR Missing quotes around message 15-09-2026 12:01:00
+info "Bad casing on level" 15-09-2026 12:02:00
+WARNING "Invalid date layout" 2026/09/15 12:03:00
+Random non-log text line
