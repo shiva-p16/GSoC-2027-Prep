@@ -21,12 +21,14 @@ if checkFile(args.filename) == False :
     
 
 def main() :   
+    malformed_lines = []
     pattern = r"(?:WARNING|ERROR|INFO)\s+\"[^\"]*\"\s+\d{2}-\d{2}-\d{4}\s+\d{2}:\d{2}:\d{2}"
     try : 
         with open(args.filename, "r", encoding="utf-8") as file : 
-            for line_number, line in enumerate(file, start=1): # save the line_numbers which are malformed, later do not count them in the final reading.
+            for line_number, line in enumerate(file, start=1): 
                 clean_line = line.rstrip("\r\n")
                 if not re.search(pattern, clean_line) : 
+                    malformed_lines.append(line_number) # save the line_numbers which are malformed, later do not count them in the final reading.
                     print(f"Error - Line {line_number} : {clean_line} - Does not follow log format")
             file.seek(0)
             content = file.read()
@@ -38,7 +40,15 @@ def main() :
             print("Error : empty file.")
             return 0
         
+        # k = 0    pointer traversal method in comments. 
         for line_number, line in enumerate(content.splitlines(),start=1): # before counting, if its a malformed line, skip it. 
+            if line_number in malformed_lines : 
+                continue
+            # if k < len(malformed_lines) and line_number == malformed_lines[k] :
+            #     if k < len(malformed_lines) :
+            #         k = k + 1
+            #     continue
+
             if line.lstrip().startswith("WARNING") : 
                 warn = warn + 1
             elif line.lstrip().startswith("ERROR") : 
