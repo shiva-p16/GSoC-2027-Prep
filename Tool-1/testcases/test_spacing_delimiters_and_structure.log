@@ -1,0 +1,25 @@
+INFO "Clean baseline single space entry" 15-09-2026 10:14:02
+INFO    "Multiple spaces between level and message" 15-09-2026 10:15:00
+WARNING "Multiple spaces between message and date"     15-09-2026 10:16:00
+ERROR "Multiple spaces between date and time" 15-09-2026        10:17:00
+INFO	"Single tab between level and message"	15-09-2026	10:18:00
+WARNING		"Double tab separators"		15-09-2026		10:19:00
+ERROR 	 "Mixed tabs and spaces separator" 	 15-09-2026 	 10:20:00
+  INFO "Two leading spaces before level" 15-09-2026 10:21:00
+    WARNING "Four leading spaces before level" 15-09-2026 10:22:00
+	ERROR "Leading tab character before level" 15-09-2026 10:23:00
+INFO "Trailing space at line end" 15-09-2026 10:24:00   
+WARNING "Trailing tab at line end" 15-09-2026 10:25:00	
+ERROR "Trailing metadata appended" 15-09-2026 10:26:00 [thread-pool-1]
+INFO "Extra colon separator": "Colon after level" 15-09-2026 10:27:00
+WARNING - "Hyphen separator after level" - 15-09-2026 10:28:00
+ERROR "Pipe separator after message" | 15-09-2026 10:29:00
+15-09-2026 10:30:00 INFO "Timestamp placed at line start"
+"Message placed at line start" ERROR 15-09-2026 10:31:00
+INFO "Missing timestamp field"
+ERROR 15-09-2026 10:32:00
+15-09-2026 10:33:00
+
+    
+	
+WARNING "Valid line after blank and whitespace lines" 15-09-2026 10:34:00

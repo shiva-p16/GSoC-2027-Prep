@@ -1,0 +1,39 @@
+INFO "Standard valid uppercase info" 15-09-2026 10:14:02
+WARNING "Standard valid uppercase warning" 15-09-2026 10:15:30
+ERROR "Standard valid uppercase error" 15-09-2026 10:16:45
+info "Lowercase info level" 15-09-2026 10:17:00
+warning "Lowercase warning level" 15-09-2026 10:18:00
+error "Lowercase error level" 15-09-2026 10:19:00
+Info "Titlecase Info level" 15-09-2026 10:20:00
+Warning "Titlecase Warning level" 15-09-2026 10:21:00
+Error "Titlecase Error level" 15-09-2026 10:22:00
+InFo "Mixed case info level" 15-09-2026 10:23:00
+WarnING "Mixed case warning level" 15-09-2026 10:24:00
+ErRoR "Mixed case error level" 15-09-2026 10:25:00
+[INFO] "Bracketed info tag" 15-09-2026 10:26:00
+[WARNING] "Bracketed warning tag" 15-09-2026 10:27:00
+[ERROR] "Bracketed error tag" 15-09-2026 10:28:00
+<INFO> "Angle bracketed info tag" 15-09-2026 10:29:00
+(ERROR) "Parenthesized error tag" 15-09-2026 10:30:00
+INFO: "Colon suffix on log level" 15-09-2026 10:31:00
+INF "Abbreviated INF level" 15-09-2026 10:32:00
+WARN "Abbreviated WARN level" 15-09-2026 10:33:00
+ERR "Abbreviated ERR level" 15-09-2026 10:34:00
+DEBUG "Non-target level DEBUG" 15-09-2026 10:35:00
+TRACE "Non-target level TRACE" 15-09-2026 10:36:00
+CRITICAL "Non-target level CRITICAL" 15-09-2026 10:37:00
+FATAL "Non-target level FATAL" 15-09-2026 10:38:00
+NOTICE "Non-target level NOTICE" 15-09-2026 10:39:00
+ALERT "Non-target level ALERT" 15-09-2026 10:40:00
+EMERGENCY "Non-target level EMERGENCY" 15-09-2026 10:41:00
+ERORR "Typo in error name" 15-09-2026 10:42:00
+EROR "Typo missing r" 15-09-2026 10:43:00
+WORNING "Typo with o instead of a" 15-09-2026 10:44:00
+WARING "Typo missing n" 15-09-2026 10:45:00
+INFOR "Typo with r suffix" 15-09-2026 10:46:00
+INFRO "Typo transposed ro" 15-09-2026 10:47:00
+ERROR404 "Level concatenated with error code" 15-09-2026 10:48:00
+SYS_INFO "Level with system prefix" 15-09-2026 10:49:00
+WARNING! "Level with exclamation point" 15-09-2026 10:50:00
+INFO WARNING "Multiple levels specified" 15-09-2026 10:51:00
+INFO "Valid closing entry" 15-09-2026 10:52:00

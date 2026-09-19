@@ -1,0 +1,27 @@
+INFO "Valid baseline entry" 15-09-2026 10:14:02
+WARNING "Valid second entry" 15-09-2026 10:15:30
+ERROR "Valid third entry" 15-09-2026 10:16:45
+INFO "ISO format YYYY-MM-DD instead of DD-MM-YYYY" 2026-09-15 10:17:00
+WARNING "Slash separators in date" 15/09/2026 10:18:00
+ERROR "Dot separators in date" 15.09.2026 10:19:00
+INFO "US date format with month first" 09-15-2026 10:20:00
+WARNING "Single digit day" 5-09-2026 10:21:00
+ERROR "Single digit month" 15-9-2026 10:22:00
+INFO "Single digit day and month" 5-9-2026 10:23:00
+WARNING "Two-digit year" 15-09-26 10:24:00
+ERROR "Impossible day 32" 32-09-2026 10:25:00
+INFO "Impossible month 13" 15-13-2026 10:26:00
+WARNING "Zero day and month" 00-00-2026 10:27:00
+ERROR "Leap day on non-leap year" 29-02-2025 10:28:00
+INFO "Valid leap day on leap year" 29-02-2024 10:29:00
+WARNING "12-hour time with PM suffix" 15-09-2026 10:30:00 PM
+ERROR "12-hour time with AM lowercase" 15-09-2026 08:31:00 am
+INFO "Missing seconds in time" 15-09-2026 10:32
+WARNING "Hour value 25 exceeds 24h clock" 15-09-2026 25:00:00
+ERROR "Minute value 60 exceeds bounds" 15-09-2026 10:60:00
+INFO "Second value 61 exceeds bounds" 15-09-2026 10:33:61
+WARNING "Timezone offset attached" 15-09-2026 10:34:00+00:00
+ERROR "UTC Z marker attached" 15-09-2026 10:35:00Z
+INFO "Milliseconds attached to time" 15-09-2026 10:36:00.123
+WARNING "Reversed order time before date" 10:37:00 15-09-2026
+ERROR "Valid final error entry" 15-09-2026 10:38:00

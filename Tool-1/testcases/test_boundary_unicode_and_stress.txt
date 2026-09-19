@@ -1,0 +1,23 @@
+INFO "Baseline English ASCII message" 15-09-2026 10:14:02
+INFO "x" 15-09-2026 10:15:00
+WARNING "" 15-09-2026 10:16:00
+ERROR "Erreur système critique: échec de l'allocation de mémoire dans le tampon" 15-09-2026 10:17:00
+WARNING "Konfigurationsfehler: Ungültiger Wert 'Überlastungsschutz' in Datei" 15-09-2026 10:18:00
+INFO "Conexión a la base de datos establecida con éxito tras reconexión" 15-09-2026 10:19:00
+ERROR "数据库连接池超时：无法为用户分配有效连接" 15-09-2026 10:20:00
+WARNING "バックグラウンドジョブの実行時間が制限の300秒を超過しました" 15-09-2026 10:21:00
+INFO "Ошибка синхронизации данных: удаленный хост временно недоступен" 15-09-2026 10:22:00
+ERROR "فشل مصادقة المستخدم بسبب انتهاء صلاحية الرمز المميز" 15-09-2026 10:23:00
+INFO "🔥 Service health check passed with flying colors ✨ 🚀 💯" 15-09-2026 10:24:00
+WARNING "⚠️ High temperature warning on CPU core 0: current temp 92°C 🌡️" 15-09-2026 10:25:00
+ERROR "💥 Fatal crash: Segmentation fault in thread 0x7fffdeadbeef 🛑" 15-09-2026 10:26:00
+INFO "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Repeat section to test payload handling of long log lines: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet." 15-09-2026 10:27:00
+INFO "Consecutive block info 1" 15-09-2026 10:28:01
+INFO "Consecutive block info 2" 15-09-2026 10:28:02
+INFO "Consecutive block info 3" 15-09-2026 10:28:03
+WARNING "Consecutive block warn 1" 15-09-2026 10:28:04
+WARNING "Consecutive block warn 2" 15-09-2026 10:28:05
+ERROR "Consecutive block err 1" 15-09-2026 10:28:06
+ERROR "Consecutive block err 2" 15-09-2026 10:28:07
+ERROR "Consecutive block err 3" 15-09-2026 10:28:08
+INFO "Final entry before EOF without trailing newline" 15-09-2026 10:29:00

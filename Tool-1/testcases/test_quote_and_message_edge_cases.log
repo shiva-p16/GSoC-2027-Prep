@@ -1,0 +1,19 @@
+INFO "Standard valid message with alphanumeric text" 15-09-2026 10:14:02
+WARNING "" 15-09-2026 10:15:00
+ERROR "   " 15-09-2026 10:16:00
+INFO 'Single quote enclosed message' 15-09-2026 10:17:00
+WARNING Missing opening quote on message" 15-09-2026 10:18:00
+ERROR "Missing closing quote on message 15-09-2026 10:19:00
+INFO No quotes anywhere in this message 15-09-2026 10:20:00
+WARNING "Message with \"escaped inner quotes\" included" 15-09-2026 10:21:00
+ERROR "Message with "unescaped inner quotes" included" 15-09-2026 10:22:00
+INFO """Triple quoted message block""" 15-09-2026 10:23:00
+WARNING "Two" "separate" "quote" "segments" 15-09-2026 10:24:00
+ERROR "Special symbols: !@#$%^&*()_+`-={}|[]\:;'<>?,./~" 15-09-2026 10:25:00
+INFO "{\"status\": 500, \"event\": \"database_crash\", \"retry\": false}" 15-09-2026 10:26:00
+WARNING "SELECT * FROM users WHERE username = 'admin' OR 1=1;" 15-09-2026 10:27:00
+ERROR "<xml><header type='error'><code val='500'/></header></xml>" 15-09-2026 10:28:00
+INFO "File path: C:\\Users\\Administrator\\AppData\\Local\\Temp\\run.log" 15-09-2026 10:29:00
+WARNING "URL target: https://api.service.internal:8443/v1/health?check=deep&retry=1" 15-09-2026 10:30:00
+ERROR "Message with embedded \t tab and \n newline escape sequences" 15-09-2026 10:31:00
+INFO "Trailing valid line for verification" 15-09-2026 10:32:00
